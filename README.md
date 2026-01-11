@@ -1,5 +1,5 @@
 
-# 🚀 The Coding Hub
+# 🚀 Zensei Network
 
 **All-in-One Installer Script**
 
@@ -8,9 +8,9 @@
 
 ---
 
-## 🔧 What is The Coding Hub?
+## 🔧 What is The Zensei Network?
 
-**The Coding Hub** is an **all-in-one installation script** designed to simplify server setup.
+**The Zensei Network** is an **all-in-one installation script** designed to simplify server setup.
 Panels, services, configs — sab kuch ek hi command me.
 Perfect for devs, hosters, and late-night sysadmins running on coffee ☕.
 
