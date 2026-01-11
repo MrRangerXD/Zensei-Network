@@ -39,7 +39,7 @@ echo -e "${C_RESET}"
 echo "🧠 OS Detected: $OS ($CODENAME)"
 line
 echo -e "${C_GREEN}⚡ Fast • Stable • Production Ready${C_RESET}"
-echo -e "${C_PURPLE}🧠 The Coding Hub — 2026 Installer${C_RESET}"
+echo -e "${C_PURPLE}🧠 Zensei Network — 2026 Installer${C_RESET}"
 line
 }
 
