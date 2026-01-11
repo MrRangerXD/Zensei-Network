@@ -1,5 +1,5 @@
 #!/bin/bash
-# Jexactyl Auto Installer with OS Detection + Nobita Banner (Silent Mode)
+# Jexactyl Auto Installer with OS Detection + Zensei Banner (Silent Mode)
 set -e
 export DEBIAN_FRONTEND=noninteractive
 
@@ -104,14 +104,14 @@ clear
 echo -e "${PURPLE}"
 echo -e "╔══════════════════════════════════════════════════════════════╗"
 echo -e "║${CYAN}                                                          ${PURPLE}║"
-echo -e "║${CYAN}   ███╗   ██╗ ██████╗ ██████╗ ██╗████████╗ █████╗         ${PURPLE}║"
-echo -e "║${CYAN}   ████╗  ██║██╔═══██╗██╔══██╗██║╚══██╔══╝██╔══██╗        ${PURPLE}║"
-echo -e "║${CYAN}   ██╔██╗ ██║██║   ██║██████╔╝██║   ██║   ███████║        ${PURPLE}║"
-echo -e "║${CYAN}   ██║╚██╗██║██║   ██║██╔══██╗██║   ██║   ██╔══██║        ${PURPLE}║"
-echo -e "║${CYAN}   ██║ ╚████║╚██████╔╝██║  ██║██║   ██║   ██║  ██║        ${PURPLE}║"
-echo -e "║${CYAN}   ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝        ${PURPLE}║"
+echo -e "${CYAN}    ███████╗███████╗███╗   ██╗███████╗███████╗██╗            ${PURPLE}║"
+echo -e "${CYAN}    ╚══███╔╝██╔════╝████╗  ██║██╔════╝██╔════╝██║            ${PURPLE}║"
+echo -e "${CYAN}      ███╔╝ █████╗  ██╔██╗ ██║███████╗█████╗  ██║            ${PURPLE}║"
+echo -e "${CYAN}     ███╔╝  ██╔══╝  ██║╚██╗██║╚════██║██╔══╝  ██║            ${PURPLE}║"
+echo -e "${CYAN}    ███████╗███████╗██║ ╚████║███████║███████╗██║            ${PURPLE}║"
+echo -e "${CYAN}    ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚══════╝╚═╝            ${PURPLE}║" 
 echo -e "║${WHITE}                                                          ${PURPLE}║"
-echo -e "║${WHITE}              Nobita Auto Installer                       ${PURPLE}║"
+echo -e "║${WHITE}              Zensei Auto Installer                       ${PURPLE}║"
 echo -e "║${YELLOW}              (Silent Mode - Minimal Output)               ${PURPLE}║"
 echo -e "╚══════════════════════════════════════════════════════════════╝"
 echo -e "${NC}"
