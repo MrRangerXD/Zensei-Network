@@ -115,7 +115,7 @@ EOF
             echo -e "\n${G}✅ IDX Tool setup complete!${N}"
             echo -e "${W}┌──────────────────────────────────────┐${N}"
             echo -e "${W}│ ${G}Status${W}: ${Y}Ready to use${W}                 │${N}"
-            echo -e "${W}│ ${G}Location${W}: ${Y}~/vps123/.idx${W}              │${N}"
+            echo -e "${W}│ ${G}Location${W}: ${Y}~/Zensei-s-VPS/.idx${W}              │${N}"
             echo -e "${W}└──────────────────────────────────────┘${N}"
         else
             echo -e "${Y}⚠ Directory .idx already exists — skipping.${N}"
@@ -134,7 +134,7 @@ EOF
         echo -e "${M}════════════════════════════════════════════════${N}\n"
         
         echo -e "${C}📡 Fetching script from GitHub...${N}"
-        bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/vm/vm.sh)
+        bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/vm/vm.sh)
         
         echo -e "\n${M}════════════════════════════════════════════════${N}"
         read -p "↩ Press Enter..."
@@ -150,8 +150,8 @@ EOF
         
         echo -e "${C}📡 Fetching script from GitHub...${N}"
 
-        bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/vm/dd.sh)
-        bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/vm/vm2.sh)
+        bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/vm/dd.sh)
+        bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/vm/vm2.sh)
         
         echo -e "\n${M}════════════════════════════════════════════════${N}"
         read -p "↩ Press Enter..."
