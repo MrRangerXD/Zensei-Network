@@ -36,14 +36,14 @@ menu() {
 blueprint1() {
   header
   echo -e "${G}▶ Running BLUEPRINT 1...${N}"
-  bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/thame/blueprint.sh)
+  bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/thame/blueprint.sh)
   pause
 }
 
 blueprint2() {
   header
   echo -e "${Y}▶ Running BLUEPRINT 2 (Fresh rebuild)...${N}"
-  bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/thame/blueprint-2.sh)
+  bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/thame/blueprint-2.sh)
   pause
 }
 
