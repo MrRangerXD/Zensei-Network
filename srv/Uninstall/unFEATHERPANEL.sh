@@ -16,7 +16,7 @@ clear
 echo -e "${CYAN}"
 echo "══════════════════════════════════════════════"
 echo "        FEATHERPANEL CONTROL MENU"
-echo "        The Coding Hub | Auto Script"
+echo "        Zensei Network | Auto Script"
 echo "══════════════════════════════════════════════"
 echo -e "${NC}"
 }
@@ -28,7 +28,7 @@ pause() {
 install_panel() {
   echo -e "${BLUE}▶▶ Starting FeatherPanel INSTALL${NC}"
   sleep 1
-  bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/panel/tool/FeatherPanel.sh)
+  bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/panel/tool/FeatherPanel.sh)
 }
 
 uninstall_panel() {
