@@ -5,8 +5,8 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 echo "🔰 MythicalDash Script"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
-echo "1️⃣  Install (nothing happens)"
-echo "2️⃣  Uninstall (full cleanup)"
+echo "1️⃣  Install "
+echo "2️⃣  Uninstall "
 echo ""
 read -p "👉 Choose option [1-2]: " ACTION
 
@@ -16,7 +16,7 @@ read -p "👉 Choose option [1-2]: " ACTION
 if [ "$ACTION" == "1" ]; then
     echo ""
     echo "😌 Install mode selected."
-    bash <(curl -s https://raw.githubusercontent.com/nobita54/-150/refs/heads/main/panel/Dashboard-v4.sh)
+    bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/panel/Dashboard-v4.sh)
     echo "Nothing to install. Silence is golden ✨"
     echo "Exiting peacefully..."
     exit 0
