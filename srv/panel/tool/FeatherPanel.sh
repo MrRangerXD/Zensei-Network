@@ -33,13 +33,13 @@ cat << "EOF"
  █████      ░░██████ ░░████████  ░░█████  ████ █████░░██████  █████        █████       ░░████████ ████ █████░░██████  █████
 ░░░░░        ░░░░░░   ░░░░░░░░    ░░░░░  ░░░░ ░░░░░  ░░░░░░  ░░░░░        ░░░░░         ░░░░░░░░ ░░░░ ░░░░░  ░░░░░░  ░░░░░ 
                                                                                                                                                                                                                                                       
-       FeatherPanel INSTALLER Mode by - Nobita
+       FeatherPanel INSTALLER Mode by - Zensei
 EOF
 echo -e "${C_RESET}"
 echo "🧠 OS Detected: $OS ($CODENAME)"
 line
 echo -e "${C_GREEN}⚡ Fast • Stable • Production Ready${C_RESET}"
-echo -e "${C_PURPLE}🧠 Zensei Network — 2026 Installer${C_RESET}"
+echo -e "${C_PURPLE}🧠 Zensei-Network — 2026 Installer${C_RESET}"
 line
 }
 
@@ -131,7 +131,7 @@ cd /var/www/featherpanel
 # BACKEND
 # ==============================
 COMPOSER_ALLOW_SUPERUSER=1 composer install --working-dir=/var/www/featherpanel/backend
-pnpm install --dir /var/www/featherpanel/frontend/
+pnpm install --dir /var/www/featherpanel/frontendv2/
 # ==============================
 # DATABASE
 # ==============================
@@ -159,7 +159,7 @@ php app migrate
 # ==============================
 # FRONTEND
 # ==============================
-cd /var/www/featherpanel/frontend
+cd /var/www/featherpanel/frontendv2
 pnpm build
 
 # ==============================
