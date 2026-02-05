@@ -1,6 +1,6 @@
 #!/bin/bash
 # ===========================================================
-# ZENSEI NETWORK Terminal Control Panel
+# CODING HUB Terminal Control Panel
 # Mode By - Zensei
 # ===========================================================
 
@@ -41,14 +41,14 @@ echo -e "${C2}███████╗███████╗██║ ╚█�
 echo -e "${C2}╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚══════╝╚═╝${NC}"
 echo
 echo -e "${C3}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "                 ${BOLD}Mode By - Zensei${NC}" ${C2}2026
+echo -e "                 ${BOLD}Made By - Zensei${NC}" ${C2}2026 ${C3}Update 4.0 Soon
 echo -e "${C1}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo
 }
 # ===================== PANEL MENU =====================
 panel_menu(){
 while true; do banner
-echo -e "${C3}────────────── PANEL MENU ──────────────${NC}"
+echo -e "${C3}──────────────| PANEL MENU |──────────────${NC}"
 echo -e "${YELLOW} 1)${WHITE} FeatherPanel"
 echo -e "${YELLOW} 2)${WHITE} Pterodactyl"
 echo -e "${YELLOW} 3)${WHITE} Jexactyl v3"
@@ -59,8 +59,8 @@ echo -e "${YELLOW} 7)${WHITE} Payment Gateway"
 echo -e "${YELLOW} 8)${WHITE} CtrlPanel"
 echo -e "${YELLOW} 9)${WHITE} Reviactyl"
 echo -e "${YELLOW}10)${WHITE} Tools Panel (External)"
-echo -e "${RED}11)${WHITE} Back"
-echo -e "${C3}─────────────────────────────────────────${NC}"
+echo -e "${YELLOW}11)${WHITE} Back"
+echo -e "${C3}──────────────────────────────────────────${NC}"
 read -p "Select → " p
 
 case $p in
@@ -69,7 +69,7 @@ case $p in
  3) bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/panel/Jexactyl.sh) ;;
  4) bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/Uninstall/unJexactyl.sh) ;;
  5) bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/Uninstall/undash-3.sh) ;;
- 6) bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/raw/refs/heads/main/srv/Uninstall/dash-v4.sh) ;;
+ 6) bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/Uninstall/dash-v4.sh) ;;
  7) bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/Uninstall/unPaymenter.sh) ;;
  8) bash <(curl -s https://raw.githubusercontent.com/nobita54/-150/refs/heads/main/Uninstall/unCtrlPanel.sh) ;;
  9) bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/Uninstall/unReviactyl.sh) ;;
@@ -83,7 +83,7 @@ done
 # ===================== TOOLS MENU =====================
 tools_menu(){
 while true; do banner
-echo -e "${BLUE}────────────── TOOLS MENU ──────────────${NC}"
+echo -e "${BLUE}──────────────| TOOLS MENU |──────────────${NC}"
 echo -e "${YELLOW} 1)${WHITE} Root Access"
 echo -e "${YELLOW} 2)${WHITE} Tailscale"
 echo -e "${YELLOW} 3)${WHITE} Cloudflare DNS"
@@ -91,8 +91,8 @@ echo -e "${YELLOW} 4)${WHITE} System Info"
 echo -e "${YELLOW} 5)${WHITE} Vps Run"
 echo -e "${YELLOW} 6)${WHITE} TERMINAL"
 echo -e "${YELLOW} 7)${WHITE} RDP Installer"
-echo -e "${RED} 8)${WHITE} Back"
-echo -e "${BLUE}────────────────────────────────────────${NC}"
+echo -e "${YELLOW} 8)${WHITE} Back"
+echo -e "${BLUE}──────────────────────────────────────────${NC}"
 read -p "Select → " t
 
 case $t in
@@ -112,12 +112,12 @@ done
 # ===================== THEME MENU =====================
 theme_menu(){
 while true; do banner
-echo -e "${PURPLE}────────────── THEME MENU ──────────────${NC}"
+echo -e "${PURPLE}──────────────| THEME MENU |──────────────${NC}"
 echo -e "${YELLOW} 1)${WHITE} Blueprint Theme"
 echo -e "${YELLOW} 2)${WHITE} Change Theme"
 echo -e "${YELLOW} 3)${WHITE} Uninstall Theme"
-echo -e "${RED} 4)${WHITE} Back"
-echo -e "${PURPLE}────────────────────────────────────────${NC}"
+echo -e "${YELLOW} 4)${WHITE} Back"
+echo -e "${PURPLE}──────────────────────────────────────────${NC}"
 read -p "Select → " th
 
 case $th in
@@ -133,7 +133,7 @@ done
 # ===================== MAIN MENU =====================
 main_menu(){
 while true; do banner
-echo -e "${CYAN}────────────── MAIN MENU ──────────────${NC}"
+echo -e "${CYAN}──────────────| MAIN MENU |──────────────${NC}"
 echo -e "${YELLOW} 1)${WHITE} Vps Run"
 echo -e "${YELLOW} 2)${WHITE} Panel"
 echo -e "${YELLOW} 3)${WHITE} Wings"
@@ -142,7 +142,7 @@ echo -e "${YELLOW} 5)${WHITE} Theme"
 echo -e "${YELLOW} 6)${WHITE} System"
 echo -e "${YELLOW} 7)${WHITE} External"
 echo -e "${YELLOW} 8)${WHITE} Exit"
-echo -e "${CYAN}──────────────────────────────────────${NC}"
+echo -e "${CYAN}────────────────────────────────────────${NC}"
 read -p "Select → " c
 
 case $c in
@@ -153,7 +153,7 @@ case $c in
  5) theme_menu ;;
  6) bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/menu/System1.sh) ;;
  7) bash <(curl -s https://raw.githubusercontent.com/MrRangerXD/Zensei-Network/refs/heads/main/srv/External/INFRA.sh) ;;
- 8) echo -e "${GREEN}Exiting — ZENSEI NETWORK BY ZENSEI${NC}"; exit ;;
+ 8) echo -e "${GREEN}Exiting — ZENSEI NETWORK made by ZENSEI${NC}"; exit ;;
  *) echo -e "${RED}Invalid${NC}"; pause ;;
 esac
 done
